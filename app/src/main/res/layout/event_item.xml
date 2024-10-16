@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <com.google.android.material.card.MaterialCardView
+        style="?attr/materialCardViewElevatedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        android:backgroundTint="@color/orange">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            style="@style/RectangleBorder"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="1"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/event_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nome do evento"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/start_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data de início do evento"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/finish_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data de término do evento"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/buttonQRCODE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="QR CODE"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:padding="15dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"
+                        style="@style/ButtonEdit"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/buttonEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Editar"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:padding="15dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"
+                        style="@style/ButtonEdit"/>
+                </LinearLayout>
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buttonList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Listar parcipantes"
+                    android:padding="15dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    style="@style/ButtonEdit"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
