@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="dark">#FF2B2B2B</color>
+    <color name="gray">#BCBCBC</color>
+    <color name="orange">#FF5722</color>
+    <color name="red">#E70808</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">EventApp</string>
+    <style name="Base.Theme.EventApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Button">
+        <item name="android:background">@drawable/rectangle_radius</item>
+    </style>
+    <style name="ButtonDelete">
+        <item name="android:background">@drawable/rectangle_red</item>
+    </style>
+    <style name="ButtonEdit">
+        <item name="android:background">@drawable/rectangle_black</item>
+    </style>
+    <style name="RectangleBorder">
+        <item name="android:background">@drawable/rectangle_border</item>
+    </style>
+    <style name="Theme.EventApp" parent="Base.Theme.EventApp"/>
+    <style name="TopBar">
+        <item name="android:background">@drawable/rectangle</item>
+    </style>
+</resources>

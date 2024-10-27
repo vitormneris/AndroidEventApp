@@ -1,0 +1,3 @@
+edu.fatecitaquera.eventapp.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
