@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TopBar">
+        <item name="android:background">@drawable/rectangle</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:background">@drawable/rectangle_radius</item>
+    </style>
+
+    <style name="ButtonEdit">
+        <item name="android:background">@drawable/rectangle_black</item>
+    </style>
+
+    <style name="ButtonDelete">
+        <item name="android:background">@drawable/rectangle_red</item>
+    </style>
+
+    <style name="RectangleBorder">
+        <item name="android:background">@drawable/rectangle_border</item>
+    </style>
+</resources>
