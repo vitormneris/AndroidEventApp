@@ -10,33 +10,24 @@ import java.util.Scanner;
 
 import edu.fatecitaquera.eventapp.util.ConnectionFactory;
 
-public class UpdateRequest extends AsyncTask<String, Void, String> {
+public class UpdateRequest extends AsyncTask<String, Void, Boolean> {
 
     @Override
-    protected String doInBackground(String... strings) {
-        StringBuilder apiResponse = new StringBuilder();
+    protected Boolean doInBackground(String... strings) {
         try {
             URL update = new URL("http://" + ConnectionFactory.serverIP + ":8080/eventos/" + strings[0] + "/atualizar");
             HttpURLConnection connection = (HttpURLConnection) update.openConnection();
-
             connection.setRequestMethod("PUT");
-
             connection.setRequestProperty("Content-type", "application/json");
-            connection.setRequestProperty("Accept", "application/json");
-
             connection.setDoOutput(true);
-
             PrintStream printStream = new PrintStream(connection.getOutputStream());
             printStream.println(strings[1]);
-
             connection.connect();
 
-            String jsonResponse = new Scanner(connection.getInputStream()).next();
-
-            return jsonResponse;
+            if (connection.getResponseCode() == 200) return true;
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return apiResponse.toString();
+        return false;
     }
 }

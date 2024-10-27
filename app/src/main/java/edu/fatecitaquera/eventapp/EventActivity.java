@@ -107,6 +107,12 @@ public class EventActivity extends AppCompatActivity {
         String eventId = getIntent().getStringExtra("eventId");
         Event event = eventDAO.findById(eventId);
 
+        if (event == null) {
+            Intent intent = new Intent(this, HomeActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+        }
+
         idEvent.getEditText().setText(event.getId());
         nameEvent.getEditText().setText(event.getName());
         startEvent.getEditText().setText(event.getStartEvent());
@@ -140,8 +146,11 @@ public class EventActivity extends AppCompatActivity {
             if (count < 2) {
                 Toast.makeText(getApplicationContext(), "Clique mais uma vez para deletar o evento", Toast.LENGTH_LONG).show();
             } else {
-                eventDAO.deleteById(eventId);
-                Toast.makeText(getApplicationContext(), "Evento deletado com sucesso! ID: " + eventId, Toast.LENGTH_LONG).show();
+
+                if (eventDAO.deleteById(eventId))
+                    Toast.makeText(getApplicationContext(), "Evento deletado com sucesso!", Toast.LENGTH_LONG).show();
+                else
+                    Toast.makeText(getApplicationContext(), "Não a conexão com a internet!", Toast.LENGTH_LONG).show();
 
                 Intent intent = new Intent(this, HomeActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -155,8 +164,10 @@ public class EventActivity extends AppCompatActivity {
             eventUpdated.setStartEvent(startEvent.getEditText().getText().toString());
             eventUpdated.setFinishEvent(finishEvent.getEditText().getText().toString());
 
-            eventDAO.update(eventId, eventUpdated);
-            Toast.makeText(getApplicationContext(), "Evento atualizado com sucesso! ID: " + eventId, Toast.LENGTH_LONG).show();
+            if (eventDAO.update(eventId, eventUpdated))
+                Toast.makeText(getApplicationContext(), "Evento atualizado com sucesso!", Toast.LENGTH_LONG).show();
+            else
+                Toast.makeText(getApplicationContext(), "Não a conexão com a internet!", Toast.LENGTH_LONG).show();
 
             Intent intent = new Intent(this, HomeActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);

@@ -4,6 +4,7 @@ package edu.fatecitaquera.eventapp;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -38,24 +39,47 @@ public class UserListActivity extends AppCompatActivity {
 
         eventDAO = new EventDAO();
         List<Event> events = eventDAO.findAll();
-        String eventId = getIntent().getStringExtra("eventId");
-        Event event = events.stream().filter((e) -> e.getId().equals(eventId)).findFirst().get();
         LayoutInflater inflater = LayoutInflater.from(this);
 
-        for (User user : event.getUsers()) {
-            View playerView = inflater.inflate(R.layout.user_item, userListView, false);
+        if (events == null) {
+            View playerView = inflater.inflate(R.layout.message_error, userListView, false);
+            TextView textView = playerView.findViewById(R.id.message);
 
-            TextView id = playerView.findViewById(R.id.user_id);
-            TextView name = playerView.findViewById(R.id.user_name);
-            TextView userIn = playerView.findViewById(R.id.user_in);
-            TextView userOut = playerView.findViewById(R.id.user_out);
-
-            id.setText("ID: " + user.getId());
-            name.setText("Nome: " + user.getName());
-            userIn.setText("Entrou: " + user.getUserIn());
-            userOut.setText("Saiu: " + user.getUserOut());
+            textView.setText("Não há conexão com a internet.");
 
             userListView.addView(playerView);
+        } else {
+
+            String eventId = getIntent().getStringExtra("eventId");
+            Event event = events.stream().filter((e) -> e.getId().equals(eventId)).findFirst().get();
+
+            if (event.getUsers().isEmpty()) {
+                View playerView = inflater.inflate(R.layout.message_error, userListView, false);
+                TextView textView = playerView.findViewById(R.id.message);
+                ImageView imageView = playerView.findViewById(R.id.image_error);
+
+                textView.setText("Nenhum usuário registrou-se neste evento ainda.");
+                textView.setTextColor(R.color.orange);
+                imageView.setImageResource(R.drawable.cara_feliz);
+
+                userListView.addView(playerView);
+            } else {
+                for (User user : event.getUsers()) {
+                    View playerView = inflater.inflate(R.layout.user_item, userListView, false);
+
+                    TextView id = playerView.findViewById(R.id.user_id);
+                    TextView name = playerView.findViewById(R.id.user_name);
+                    TextView userIn = playerView.findViewById(R.id.user_in);
+                    TextView userOut = playerView.findViewById(R.id.user_out);
+
+                    id.setText("ID: " + user.getId());
+                    name.setText("Nome: " + user.getName());
+                    userIn.setText("Entrou: " + user.getUserIn());
+                    userOut.setText("Saiu: " + user.getUserOut());
+
+                    userListView.addView(playerView);
+                }
+            }
         }
     }
 }

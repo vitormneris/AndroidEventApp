@@ -132,9 +132,8 @@ public class AddEventActivity extends AppCompatActivity {
             eventNew.setStartEvent(startEvent.getEditText().getText().toString());
             eventNew.setFinishEvent(finishEvent.getEditText().getText().toString());
 
-
-            String id = eventDAO.insert(eventNew);
-            Toast.makeText(getApplicationContext(), "Evento inserido com sucesso! ID: " + id, Toast.LENGTH_LONG).show();
+            if (eventDAO.insert(eventNew)) Toast.makeText(getApplicationContext(), "Evento registrado com sucesso!", Toast.LENGTH_LONG).show();
+            else Toast.makeText(getApplicationContext(), "Não há conexão com a internet!", Toast.LENGTH_LONG).show();
 
             Intent intent = new Intent(this, HomeActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);

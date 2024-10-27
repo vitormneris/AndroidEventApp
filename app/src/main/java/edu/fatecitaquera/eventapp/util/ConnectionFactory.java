@@ -1,6 +1,6 @@
 package edu.fatecitaquera.eventapp.util;
 
 public class ConnectionFactory  {
-    public static String serverIP = "18.216.150.7";
+    public static String serverIP = "3.12.147.114";
 }
 

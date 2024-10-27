@@ -1,9 +1,6 @@
 package edu.fatecitaquera.eventapp.dao;
 
-import android.util.Log;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.util.ArrayList;
@@ -21,29 +18,18 @@ import edu.fatecitaquera.eventapp.model.User;
 
 public class EventDAO {
     public Event findById(String id) {
-        Event event = new Event();
 
         try {
             FindByIdRequest findByIdRequest = new FindByIdRequest();
             String jsonString = findByIdRequest.execute(id).get();
 
-            ObjectMapper objectMapper = new ObjectMapper();
-            Map<String, Object> map = objectMapper.readValue(jsonString, Map.class);
-            event.setId((String) map.get("id"));
-            event.setName((String) map.get("name"));
-            event.setStartEvent((String) map.get("startEvent"));
-            event.setFinishEvent((String) map.get("finishEvent"));
+            if (jsonString == null) return null;
 
-        } catch (ExecutionException e) {
+            return convertToEvent(jsonString);
+        } catch (ExecutionException | InterruptedException e) {
             e.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (JsonMappingException e) {
-            throw new RuntimeException(e);
-        } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
         }
-        return event;
+        return null;
     }
 
     public List<Event> findAll() {
@@ -51,12 +37,10 @@ public class EventDAO {
         try {
             FindAllRequest findAllRequest = new FindAllRequest();
             String jsonString = findAllRequest.execute().get();
-            Log.i("JS0000N", jsonString);
-            ObjectMapper objectMapper = new ObjectMapper();
 
-            int start = 0, startUser= 0;
-            int finish = 0, finishUser = 0;
-            int count = 0;
+            if (jsonString == null) return  null;
+
+            int start = 0, startUser= 0, finish = 0, finishUser = 0, count = 0;
             boolean active = false;
             String eventId = null;
             for (int i = 0; i < jsonString.length(); i++) {
@@ -74,150 +58,112 @@ public class EventDAO {
                 }
 
                 if (!active && start != 0 && finish != 0) {
-                    String json = jsonString.substring(start, finish) + '}';
-                    Log.i("JSON", json);
-                    Map<String, Object> map = objectMapper.readValue(json, Map.class);
-                    Event event = new Event();
-                    event.setId((String) map.get("id"));
-                    event.setName((String) map.get("name"));
-                    event.setStartEvent((String) map.get("startEvent"));
-                    event.setFinishEvent((String) map.get("finishEvent"));
+                    Event event = convertToEvent(jsonString.substring(start, finish) + '}');
                     events.add(event);
                     eventId = event.getId();
                     active = true;
                     start = 0;
                     finish= 0;
-
                 }
 
-                if (active && jsonString.charAt(i) == '[') {
-                    startUser = i;
-                }
+                if (active && jsonString.charAt(i) == '[') startUser = i;
 
-                if (startUser != 0 && active && jsonString.charAt(i) == ']') {
-                    finishUser = i;
-                }
+                if (startUser != 0 && active && jsonString.charAt(i) == ']') finishUser = i;
 
                 if (active && startUser != 0 && finishUser != 0) {
-                    String json = jsonString.substring(startUser, finishUser + 1);
                     String finalEventId = eventId;
-                    Event e = events.stream().filter((event -> event.getId().equals(finalEventId))).findFirst().get();
-                    e.setUsers(findAllUser(json));
+                    Event event = events.stream().filter((e -> e.getId().equals(finalEventId))).findFirst().get();
+                    event.setUsers(findAllUser(jsonString.substring(startUser, finishUser + 1)));
                     active = false;
                     startUser = 0;
                     finishUser = 0;
                 }
             }
-        } catch (ExecutionException e) {
+        } catch (ExecutionException | InterruptedException e) {
             e.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (JsonMappingException e) {
-            throw new RuntimeException(e);
-        } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
         }
         return events;
     }
 
     public List<User> findAllUser(String jsonString) {
         List<User> users = new ArrayList<>();
-        ObjectMapper objectMapper = new ObjectMapper();
 
-        try {
+        int start = 0, finish = 0;
+        for (int i = 0; i < jsonString.length(); i++) {
+            if (jsonString.charAt(i) == '{') start = i;
 
-            int start = 0;
-            int finish = 0;
-            for (int i = 0; i < jsonString.length(); i++) {
-                if (jsonString.charAt(i) == '{') {
-                    start = i;
-                }
+            if (jsonString.charAt(i) == '}') finish = i;
 
-                if (jsonString.charAt(i) == '}') {
-                    finish = i;
-                }
-
-                if (start != 0 && finish != 0) {
-                    String json = jsonString.substring(start, finish + 1);
-                    Map<String, Object> map = objectMapper.readValue(json, Map.class);
-                    User user = new User();
-
-                    user.setId((String) map.get("id"));
-                    user.setName((String) map.get("name"));
-                    user.setUserIn((String) map.get("userIn"));
-                    user.setUserOut((String) map.get("userOut"));
-
-                    users.add(user);
-                    start = 0;
-                    finish = 0;
-
-                }
+            if (start != 0 && finish != 0) {
+                users.add(convertToUser(jsonString, start, finish));
+                start = 0;
+                finish = 0;
             }
-
-        } catch (JsonMappingException e) {
-            throw new RuntimeException(e);
-        } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
         }
         return users;
     }
 
-    public String insert(Event event){
+    public boolean insert(Event event){
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            InsertRequest insertRequest = new InsertRequest();
+            return insertRequest.execute(objectMapper.writeValueAsString(event)).get();
+        } catch (ExecutionException | InterruptedException |JsonProcessingException  e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    public boolean update(String id, Event event) {
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            UpdateRequest updateRequest = new UpdateRequest();
+            return updateRequest.execute(id, objectMapper.writeValueAsString(event)).get();
+        } catch (ExecutionException | InterruptedException |JsonProcessingException  e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    public boolean deleteById(String id) {
+        try {
+            DeleteRequest deleteRequest = new DeleteRequest();
+            return deleteRequest.execute(id).get();
+        } catch (ExecutionException | InterruptedException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    private Event convertToEvent(String jsonString) {
+        Event event = new Event();
         ObjectMapper objectMapper = new ObjectMapper();
 
         try {
-            String jsonUser = objectMapper.writeValueAsString(event);
-
-            InsertRequest insertRequest = new InsertRequest();
-            String jsonString = insertRequest.execute(jsonUser).get();
-
             Map<String, Object> map = objectMapper.readValue(jsonString, Map.class);
             event.setId((String) map.get("id"));
             event.setName((String) map.get("name"));
             event.setStartEvent((String) map.get("startEvent"));
             event.setFinishEvent((String) map.get("finishEvent"));
-
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (JsonMappingException e) {
-            throw new RuntimeException(e);
+            return event;
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }
-        return event.getId();
     }
 
-    public void update(String id, Event event){
+    private User convertToUser(String jsonString, int start, int finish) {
+        User user = new User();
         ObjectMapper objectMapper = new ObjectMapper();
 
         try {
-            String jsonUser = objectMapper.writeValueAsString(event);
-
-            UpdateRequest updateRequest = new UpdateRequest();
-            updateRequest.execute(id, jsonUser).get();
-
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (JsonMappingException e) {
-            throw new RuntimeException(e);
+            Map<String, Object> map = objectMapper.readValue(jsonString.substring(start, finish + 1), Map.class);
+            user.setId((String) map.get("id"));
+            user.setName((String) map.get("name"));
+            user.setUserIn((String) map.get("userIn"));
+            user.setUserOut((String) map.get("userOut"));
+            return user;
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
-        }
-    }
-
-    public void deleteById(String id){
-        try {
-            DeleteRequest deleteRequest = new DeleteRequest();
-            deleteRequest.execute(id).get();
-
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
         }
     }
 }
