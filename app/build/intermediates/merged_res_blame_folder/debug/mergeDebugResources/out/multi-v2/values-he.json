@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "edu.fatecitaquera.eventapp-mergeDebugResources-2:/values-he/values-he.xml",
+            "outputFile": "edu.fatecitaquera.eventapp-mergeDebugResources-39:/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "/home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/res/values-he/values-he.xml",
+                    "source": "C:\\Users\\fabio\\.gradle\\caches\\transforms-4\\7b7ec68311d9e7a8260c33f7ac2f635c\\transformed\\zxing-android-embedded-4.3.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

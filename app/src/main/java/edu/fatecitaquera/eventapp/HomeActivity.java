@@ -81,7 +81,7 @@ public class HomeActivity extends AppCompatActivity {
                 });
 
                 buttonQRCode.setOnClickListener((e) -> {
-                    Intent intent = new Intent(this, QRCodeActivity.class);
+                    Intent intent = new Intent(this, ScannerActivity.class);
                     intent.putExtra("eventId", event.getId());
                     startActivity(intent);
                 });

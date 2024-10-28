@@ -67,6 +67,9 @@
             android:name="edu.fatecitaquera.eventapp.HomeActivity"
             android:exported="false" />
         <activity
+            android:name="edu.fatecitaquera.eventapp.ScannerActivity"
+            android:exported="false" />
+        <activity
             android:name="edu.fatecitaquera.eventapp.MainActivity"
             android:exported="true" >
             <intent-filter>
@@ -83,6 +86,14 @@
             android:theme="@style/zxing_CaptureTheme"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
+        <service
+            android:name="androidx.camera.core.impl.MetadataHolderService"
+            android:enabled="false"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+        </service>
         <service
             android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
             android:directBootAware="true"

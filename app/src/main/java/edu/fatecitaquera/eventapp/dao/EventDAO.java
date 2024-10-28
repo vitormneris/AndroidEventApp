@@ -13,6 +13,7 @@ import edu.fatecitaquera.eventapp.background.FindAllRequest;
 import edu.fatecitaquera.eventapp.background.FindByIdRequest;
 import edu.fatecitaquera.eventapp.background.InsertRequest;
 import edu.fatecitaquera.eventapp.background.UpdateRequest;
+import edu.fatecitaquera.eventapp.background.UserAddEventRequest;
 import edu.fatecitaquera.eventapp.model.Event;
 import edu.fatecitaquera.eventapp.model.User;
 
@@ -134,7 +135,15 @@ public class EventDAO {
         }
         return false;
     }
-
+    public boolean eventAddUser(String userId, String eventId) {
+        try {
+            UserAddEventRequest userAddEventRequest = new UserAddEventRequest();
+            return userAddEventRequest.execute(userId, eventId).get();
+        } catch (ExecutionException | InterruptedException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
     private Event convertToEvent(String jsonString) {
         Event event = new Event();
         ObjectMapper objectMapper = new ObjectMapper();

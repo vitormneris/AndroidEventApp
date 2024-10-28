@@ -9,300 +9,321 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:5:5-67
-11-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:5:22-64
+11-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:6:5-79
-12-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:6:22-76
+12-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
-13-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:22:5-65
-13-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:22:22-62
+13-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+13-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
 14    <uses-feature
-14-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
+14-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
 15        android:name="android.hardware.camera"
-15-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:26:9-47
+15-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
 16        android:required="false" />
-16-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:27:9-33
+16-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
 17    <uses-feature
-17-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+17-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
 18        android:name="android.hardware.camera.front"
-18-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+18-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
 19        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-19-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+19-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
 20    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
 21    <uses-feature
-21-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
 22        android:name="android.hardware.camera.autofocus"
-22-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+22-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
 23        android:required="false" />
-23-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
 24    <uses-feature
-24-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
 25        android:name="android.hardware.camera.flash"
-25-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
 26        android:required="false" />
-26-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
 27    <uses-feature
-27-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
 28        android:name="android.hardware.screen.landscape"
-28-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
 29        android:required="false" />
-29-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
 30    <uses-feature
-30-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
 31        android:name="android.hardware.wifi"
-31-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
 32        android:required="false" />
-32-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
 33
 34    <permission
-34-->[androidx.core:core:1.13.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/e3afcb6995278099648a387b88517c1a/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+34-->[androidx.core:core:1.13.0] C:\Users\fabio\.gradle\caches\transforms-4\e3afcb6995278099648a387b88517c1a\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
 35        android:name="edu.fatecitaquera.eventapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-35-->[androidx.core:core:1.13.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/e3afcb6995278099648a387b88517c1a/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+35-->[androidx.core:core:1.13.0] C:\Users\fabio\.gradle\caches\transforms-4\e3afcb6995278099648a387b88517c1a\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
 36        android:protectionLevel="signature" />
-36-->[androidx.core:core:1.13.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/e3afcb6995278099648a387b88517c1a/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+36-->[androidx.core:core:1.13.0] C:\Users\fabio\.gradle\caches\transforms-4\e3afcb6995278099648a387b88517c1a\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
 37
 38    <uses-permission android:name="edu.fatecitaquera.eventapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-38-->[androidx.core:core:1.13.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/e3afcb6995278099648a387b88517c1a/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
-38-->[androidx.core:core:1.13.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/e3afcb6995278099648a387b88517c1a/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+38-->[androidx.core:core:1.13.0] C:\Users\fabio\.gradle\caches\transforms-4\e3afcb6995278099648a387b88517c1a\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.13.0] C:\Users\fabio\.gradle\caches\transforms-4\e3afcb6995278099648a387b88517c1a\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 39
 40    <application
-40-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:8:5-43:19
+40-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:8:5-46:19
 41        android:allowBackup="true"
-41-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:9:9-35
+41-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:9:9-35
 42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-42-->[androidx.core:core:1.13.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/e3afcb6995278099648a387b88517c1a/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+42-->[androidx.core:core:1.13.0] C:\Users\fabio\.gradle\caches\transforms-4\e3afcb6995278099648a387b88517c1a\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 43        android:dataExtractionRules="@xml/data_extraction_rules"
-43-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:10:9-65
+43-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:10:9-65
 44        android:debuggable="true"
 45        android:extractNativeLibs="false"
 46        android:fullBackupContent="@xml/backup_rules"
-46-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:11:9-54
+46-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:11:9-54
 47        android:icon="@mipmap/ic_launcher"
-47-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:12:9-43
+47-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:12:9-43
 48        android:label="@string/app_name"
-48-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:13:9-41
+48-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:13:9-41
 49        android:networkSecurityConfig="@xml/network_security_config"
-49-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:14:9-69
+49-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:14:9-69
 50        android:roundIcon="@mipmap/ic_launcher_round"
-50-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:15:9-54
+50-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:15:9-54
 51        android:supportsRtl="true"
-51-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:16:9-35
+51-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:16:9-35
 52        android:testOnly="true"
 53        android:theme="@style/Theme.EventApp" >
-53-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:17:9-46
+53-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:17:9-46
 54        <activity
-54-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:19:9-21:40
+54-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:19:9-21:40
 55            android:name="edu.fatecitaquera.eventapp.UserListActivity"
-55-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:20:13-45
+55-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:20:13-45
 56            android:exported="false" />
-56-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:21:13-37
+56-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:21:13-37
 57        <activity
-57-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:22:9-24:40
+57-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:22:9-24:40
 58            android:name="edu.fatecitaquera.eventapp.QRCodeActivity"
-58-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:23:13-43
+58-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:23:13-43
 59            android:exported="false" />
-59-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:24:13-37
+59-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:24:13-37
 60        <activity
-60-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:25:9-27:40
+60-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:25:9-27:40
 61            android:name="edu.fatecitaquera.eventapp.EventActivity"
-61-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:26:13-42
+61-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:26:13-42
 62            android:exported="false" />
-62-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:27:13-37
+62-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:27:13-37
 63        <activity
-63-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:28:9-30:40
+63-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:28:9-30:40
 64            android:name="edu.fatecitaquera.eventapp.AddEventActivity"
-64-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:29:13-45
+64-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:29:13-45
 65            android:exported="false" />
-65-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:30:13-37
+65-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:30:13-37
 66        <activity
-66-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:31:9-33:40
+66-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:31:9-33:40
 67            android:name="edu.fatecitaquera.eventapp.HomeActivity"
-67-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:32:13-41
+67-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:32:13-41
 68            android:exported="false" />
-68-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:33:13-37
+68-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:33:13-37
 69        <activity
-69-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:34:9-42:20
-70            android:name="edu.fatecitaquera.eventapp.MainActivity"
-70-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:35:13-41
-71            android:exported="true" >
-71-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:36:13-36
-72            <intent-filter>
-72-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:37:13-41:29
-73                <action android:name="android.intent.action.MAIN" />
-73-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:38:17-69
-73-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:38:25-66
-74
-75                <category android:name="android.intent.category.LAUNCHER" />
-75-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:40:17-77
-75-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:40:27-74
-76            </intent-filter>
-77        </activity>
-78        <activity
-78-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
-79            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-79-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
-80            android:clearTaskOnLaunch="true"
-80-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
-81            android:screenOrientation="sensorLandscape"
-81-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
-82            android:stateNotNeeded="true"
-82-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
-83            android:theme="@style/zxing_CaptureTheme"
-83-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
-84            android:windowSoftInputMode="stateAlwaysHidden" />
-84-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
-85
-86        <service
-86-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/1a28c585a4469be883af184b6b735ada/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:9:9-15:19
-87            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
-87-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/1a28c585a4469be883af184b6b735ada/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:10:13-91
-88            android:directBootAware="true"
-88-->[com.google.mlkit:common:18.11.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/6ad36d4ba35162234e23eb618a31acd3/transformed/common-18.11.0/AndroidManifest.xml:17:13-43
-89            android:exported="false" >
-89-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/1a28c585a4469be883af184b6b735ada/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:11:13-37
-90            <meta-data
-90-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/1a28c585a4469be883af184b6b735ada/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:12:13-14:85
-91                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
-91-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/1a28c585a4469be883af184b6b735ada/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:13:17-120
-92                android:value="com.google.firebase.components.ComponentRegistrar" />
-92-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/1a28c585a4469be883af184b6b735ada/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:14:17-82
+69-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:34:9-36:40
+70            android:name="edu.fatecitaquera.eventapp.ScannerActivity"
+70-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:35:13-44
+71            android:exported="false" />
+71-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:36:13-37
+72        <activity
+72-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:37:9-45:20
+73            android:name="edu.fatecitaquera.eventapp.MainActivity"
+73-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:38:13-41
+74            android:exported="true" >
+74-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:39:13-36
+75            <intent-filter>
+75-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:40:13-44:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:41:17-69
+76-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:41:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:43:17-77
+78-->C:\Users\fabio\Desktop\trabalho_event\AndroidEventApp\app\src\main\AndroidManifest.xml:43:27-74
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+82            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+82-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+83            android:clearTaskOnLaunch="true"
+83-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+84            android:screenOrientation="sensorLandscape"
+84-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+85            android:stateNotNeeded="true"
+85-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+86            android:theme="@style/zxing_CaptureTheme"
+86-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+87            android:windowSoftInputMode="stateAlwaysHidden" />
+87-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\fabio\.gradle\caches\transforms-4\7b7ec68311d9e7a8260c33f7ac2f635c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+88
+89        <service
+89-->[androidx.camera:camera-camera2:1.5.0-alpha01] C:\Users\fabio\.gradle\caches\transforms-4\dfc479150dcddbcea0076a4793c27521\transformed\camera-camera2-1.5.0-alpha01\AndroidManifest.xml:24:9-33:19
+90            android:name="androidx.camera.core.impl.MetadataHolderService"
+90-->[androidx.camera:camera-camera2:1.5.0-alpha01] C:\Users\fabio\.gradle\caches\transforms-4\dfc479150dcddbcea0076a4793c27521\transformed\camera-camera2-1.5.0-alpha01\AndroidManifest.xml:25:13-75
+91            android:enabled="false"
+91-->[androidx.camera:camera-camera2:1.5.0-alpha01] C:\Users\fabio\.gradle\caches\transforms-4\dfc479150dcddbcea0076a4793c27521\transformed\camera-camera2-1.5.0-alpha01\AndroidManifest.xml:26:13-36
+92            android:exported="false" >
+92-->[androidx.camera:camera-camera2:1.5.0-alpha01] C:\Users\fabio\.gradle\caches\transforms-4\dfc479150dcddbcea0076a4793c27521\transformed\camera-camera2-1.5.0-alpha01\AndroidManifest.xml:27:13-37
 93            <meta-data
-93-->[com.google.mlkit:vision-common:17.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/10cf30990b8ef9b858ecef26f426b9c1/transformed/vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
-94                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
-94-->[com.google.mlkit:vision-common:17.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/10cf30990b8ef9b858ecef26f426b9c1/transformed/vision-common-17.3.0/AndroidManifest.xml:13:17-124
-95                android:value="com.google.firebase.components.ComponentRegistrar" />
-95-->[com.google.mlkit:vision-common:17.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/10cf30990b8ef9b858ecef26f426b9c1/transformed/vision-common-17.3.0/AndroidManifest.xml:14:17-82
-96            <meta-data
-96-->[com.google.mlkit:common:18.11.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/6ad36d4ba35162234e23eb618a31acd3/transformed/common-18.11.0/AndroidManifest.xml:20:13-22:85
-97                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
-97-->[com.google.mlkit:common:18.11.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/6ad36d4ba35162234e23eb618a31acd3/transformed/common-18.11.0/AndroidManifest.xml:21:17-120
-98                android:value="com.google.firebase.components.ComponentRegistrar" />
-98-->[com.google.mlkit:common:18.11.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/6ad36d4ba35162234e23eb618a31acd3/transformed/common-18.11.0/AndroidManifest.xml:22:17-82
-99        </service>
-100
-101        <provider
-101-->[com.google.mlkit:common:18.11.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/6ad36d4ba35162234e23eb618a31acd3/transformed/common-18.11.0/AndroidManifest.xml:9:9-13:38
-102            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
-102-->[com.google.mlkit:common:18.11.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/6ad36d4ba35162234e23eb618a31acd3/transformed/common-18.11.0/AndroidManifest.xml:10:13-78
-103            android:authorities="edu.fatecitaquera.eventapp.mlkitinitprovider"
-103-->[com.google.mlkit:common:18.11.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/6ad36d4ba35162234e23eb618a31acd3/transformed/common-18.11.0/AndroidManifest.xml:11:13-69
-104            android:exported="false"
-104-->[com.google.mlkit:common:18.11.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/6ad36d4ba35162234e23eb618a31acd3/transformed/common-18.11.0/AndroidManifest.xml:12:13-37
-105            android:initOrder="99" />
-105-->[com.google.mlkit:common:18.11.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/6ad36d4ba35162234e23eb618a31acd3/transformed/common-18.11.0/AndroidManifest.xml:13:13-35
-106
-107        <activity
-107-->[com.google.android.gms:play-services-base:18.5.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/07a5c8fec5fb07a5f817314c321e173c/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
-108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-108-->[com.google.android.gms:play-services-base:18.5.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/07a5c8fec5fb07a5f817314c321e173c/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
-109            android:exported="false"
-109-->[com.google.android.gms:play-services-base:18.5.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/07a5c8fec5fb07a5f817314c321e173c/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
-110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-110-->[com.google.android.gms:play-services-base:18.5.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/07a5c8fec5fb07a5f817314c321e173c/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+93-->[androidx.camera:camera-camera2:1.5.0-alpha01] C:\Users\fabio\.gradle\caches\transforms-4\dfc479150dcddbcea0076a4793c27521\transformed\camera-camera2-1.5.0-alpha01\AndroidManifest.xml:30:13-32:89
+94                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+94-->[androidx.camera:camera-camera2:1.5.0-alpha01] C:\Users\fabio\.gradle\caches\transforms-4\dfc479150dcddbcea0076a4793c27521\transformed\camera-camera2-1.5.0-alpha01\AndroidManifest.xml:31:17-103
+95                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+95-->[androidx.camera:camera-camera2:1.5.0-alpha01] C:\Users\fabio\.gradle\caches\transforms-4\dfc479150dcddbcea0076a4793c27521\transformed\camera-camera2-1.5.0-alpha01\AndroidManifest.xml:32:17-86
+96        </service>
+97        <service
+97-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\fabio\.gradle\caches\transforms-4\1a28c585a4469be883af184b6b735ada\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+98            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+98-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\fabio\.gradle\caches\transforms-4\1a28c585a4469be883af184b6b735ada\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:10:13-91
+99            android:directBootAware="true"
+99-->[com.google.mlkit:common:18.11.0] C:\Users\fabio\.gradle\caches\transforms-4\6ad36d4ba35162234e23eb618a31acd3\transformed\common-18.11.0\AndroidManifest.xml:17:13-43
+100            android:exported="false" >
+100-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\fabio\.gradle\caches\transforms-4\1a28c585a4469be883af184b6b735ada\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:11:13-37
+101            <meta-data
+101-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\fabio\.gradle\caches\transforms-4\1a28c585a4469be883af184b6b735ada\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+102                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+102-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\fabio\.gradle\caches\transforms-4\1a28c585a4469be883af184b6b735ada\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\fabio\.gradle\caches\transforms-4\1a28c585a4469be883af184b6b735ada\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+104            <meta-data
+104-->[com.google.mlkit:vision-common:17.3.0] C:\Users\fabio\.gradle\caches\transforms-4\10cf30990b8ef9b858ecef26f426b9c1\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+105                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+105-->[com.google.mlkit:vision-common:17.3.0] C:\Users\fabio\.gradle\caches\transforms-4\10cf30990b8ef9b858ecef26f426b9c1\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.mlkit:vision-common:17.3.0] C:\Users\fabio\.gradle\caches\transforms-4\10cf30990b8ef9b858ecef26f426b9c1\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+107            <meta-data
+107-->[com.google.mlkit:common:18.11.0] C:\Users\fabio\.gradle\caches\transforms-4\6ad36d4ba35162234e23eb618a31acd3\transformed\common-18.11.0\AndroidManifest.xml:20:13-22:85
+108                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+108-->[com.google.mlkit:common:18.11.0] C:\Users\fabio\.gradle\caches\transforms-4\6ad36d4ba35162234e23eb618a31acd3\transformed\common-18.11.0\AndroidManifest.xml:21:17-120
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.mlkit:common:18.11.0] C:\Users\fabio\.gradle\caches\transforms-4\6ad36d4ba35162234e23eb618a31acd3\transformed\common-18.11.0\AndroidManifest.xml:22:17-82
+110        </service>
 111
-112        <meta-data
-112-->[com.google.android.gms:play-services-basement:18.4.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/69da737320953308fcc62f2fa8179235/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
-113            android:name="com.google.android.gms.version"
-113-->[com.google.android.gms:play-services-basement:18.4.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/69da737320953308fcc62f2fa8179235/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
-114            android:value="@integer/google_play_services_version" />
-114-->[com.google.android.gms:play-services-basement:18.4.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/69da737320953308fcc62f2fa8179235/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
-115
-116        <provider
-116-->[androidx.emoji2:emoji2:1.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/b57b3ebf196e812237f978c77d64b847/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-117            android:name="androidx.startup.InitializationProvider"
-117-->[androidx.emoji2:emoji2:1.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/b57b3ebf196e812237f978c77d64b847/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-118            android:authorities="edu.fatecitaquera.eventapp.androidx-startup"
-118-->[androidx.emoji2:emoji2:1.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/b57b3ebf196e812237f978c77d64b847/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
-119            android:exported="false" >
-119-->[androidx.emoji2:emoji2:1.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/b57b3ebf196e812237f978c77d64b847/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
-120            <meta-data
-120-->[androidx.emoji2:emoji2:1.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/b57b3ebf196e812237f978c77d64b847/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-121                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-121-->[androidx.emoji2:emoji2:1.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/b57b3ebf196e812237f978c77d64b847/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-122                android:value="androidx.startup" />
-122-->[androidx.emoji2:emoji2:1.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/b57b3ebf196e812237f978c77d64b847/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
-123            <meta-data
-123-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/a1faa2b7df692ca2b5cbf0092f5fd2c3/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
-124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-124-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/a1faa2b7df692ca2b5cbf0092f5fd2c3/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
-125                android:value="androidx.startup" />
-125-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/a1faa2b7df692ca2b5cbf0092f5fd2c3/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
-126            <meta-data
-126-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
-127                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-127-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
-128                android:value="androidx.startup" />
-128-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
-129        </provider>
-130
-131        <receiver
-131-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
-132            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-132-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
-133            android:directBootAware="false"
-133-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
-134            android:enabled="true"
-134-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
-135            android:exported="true"
-135-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
-136            android:permission="android.permission.DUMP" >
-136-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
-137            <intent-filter>
-137-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
-138                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-138-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
-138-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
-139            </intent-filter>
-140            <intent-filter>
-140-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
-141                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-141-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
-141-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
-142            </intent-filter>
-143            <intent-filter>
-143-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
-144                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-144-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
-144-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
-145            </intent-filter>
-146            <intent-filter>
-146-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
-147                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-147-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
-147-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/74c99bc4386b4c536752c9f27fc19797/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
-148            </intent-filter>
-149        </receiver>
-150
-151        <service
-151-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/dcee7260ea209b2adb1d59cf6bc9867b/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
-152            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-152-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/dcee7260ea209b2adb1d59cf6bc9867b/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
-153            android:exported="false" >
-153-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/dcee7260ea209b2adb1d59cf6bc9867b/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
-154            <meta-data
-154-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/dcee7260ea209b2adb1d59cf6bc9867b/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
-155                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-155-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/dcee7260ea209b2adb1d59cf6bc9867b/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
-156                android:value="cct" />
-156-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/dcee7260ea209b2adb1d59cf6bc9867b/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
-157        </service>
-158        <service
-158-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/88721d87f3c6e690dcee378828e38786/transformed/transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
-159            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-159-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/88721d87f3c6e690dcee378828e38786/transformed/transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
-160            android:exported="false"
-160-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/88721d87f3c6e690dcee378828e38786/transformed/transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
-161            android:permission="android.permission.BIND_JOB_SERVICE" >
-161-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/88721d87f3c6e690dcee378828e38786/transformed/transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
-162        </service>
-163
-164        <receiver
-164-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/88721d87f3c6e690dcee378828e38786/transformed/transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
-165            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-165-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/88721d87f3c6e690dcee378828e38786/transformed/transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
-166            android:exported="false" />
-166-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/88721d87f3c6e690dcee378828e38786/transformed/transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
-167    </application>
-168
-169</manifest>
+112        <provider
+112-->[com.google.mlkit:common:18.11.0] C:\Users\fabio\.gradle\caches\transforms-4\6ad36d4ba35162234e23eb618a31acd3\transformed\common-18.11.0\AndroidManifest.xml:9:9-13:38
+113            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+113-->[com.google.mlkit:common:18.11.0] C:\Users\fabio\.gradle\caches\transforms-4\6ad36d4ba35162234e23eb618a31acd3\transformed\common-18.11.0\AndroidManifest.xml:10:13-78
+114            android:authorities="edu.fatecitaquera.eventapp.mlkitinitprovider"
+114-->[com.google.mlkit:common:18.11.0] C:\Users\fabio\.gradle\caches\transforms-4\6ad36d4ba35162234e23eb618a31acd3\transformed\common-18.11.0\AndroidManifest.xml:11:13-69
+115            android:exported="false"
+115-->[com.google.mlkit:common:18.11.0] C:\Users\fabio\.gradle\caches\transforms-4\6ad36d4ba35162234e23eb618a31acd3\transformed\common-18.11.0\AndroidManifest.xml:12:13-37
+116            android:initOrder="99" />
+116-->[com.google.mlkit:common:18.11.0] C:\Users\fabio\.gradle\caches\transforms-4\6ad36d4ba35162234e23eb618a31acd3\transformed\common-18.11.0\AndroidManifest.xml:13:13-35
+117
+118        <activity
+118-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\fabio\.gradle\caches\transforms-4\07a5c8fec5fb07a5f817314c321e173c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+119-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\fabio\.gradle\caches\transforms-4\07a5c8fec5fb07a5f817314c321e173c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\fabio\.gradle\caches\transforms-4\07a5c8fec5fb07a5f817314c321e173c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\fabio\.gradle\caches\transforms-4\07a5c8fec5fb07a5f817314c321e173c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\fabio\.gradle\caches\transforms-4\69da737320953308fcc62f2fa8179235\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\fabio\.gradle\caches\transforms-4\69da737320953308fcc62f2fa8179235\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\fabio\.gradle\caches\transforms-4\69da737320953308fcc62f2fa8179235\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+126
+127        <provider
+127-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fabio\.gradle\caches\transforms-4\b57b3ebf196e812237f978c77d64b847\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+128            android:name="androidx.startup.InitializationProvider"
+128-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fabio\.gradle\caches\transforms-4\b57b3ebf196e812237f978c77d64b847\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+129            android:authorities="edu.fatecitaquera.eventapp.androidx-startup"
+129-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fabio\.gradle\caches\transforms-4\b57b3ebf196e812237f978c77d64b847\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+130            android:exported="false" >
+130-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fabio\.gradle\caches\transforms-4\b57b3ebf196e812237f978c77d64b847\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+131            <meta-data
+131-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fabio\.gradle\caches\transforms-4\b57b3ebf196e812237f978c77d64b847\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+132                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+132-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fabio\.gradle\caches\transforms-4\b57b3ebf196e812237f978c77d64b847\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+133                android:value="androidx.startup" />
+133-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fabio\.gradle\caches\transforms-4\b57b3ebf196e812237f978c77d64b847\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+134            <meta-data
+134-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\fabio\.gradle\caches\transforms-4\a1faa2b7df692ca2b5cbf0092f5fd2c3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+135                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+135-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\fabio\.gradle\caches\transforms-4\a1faa2b7df692ca2b5cbf0092f5fd2c3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+136                android:value="androidx.startup" />
+136-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\fabio\.gradle\caches\transforms-4\a1faa2b7df692ca2b5cbf0092f5fd2c3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+137            <meta-data
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+138                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+139                android:value="androidx.startup" />
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+140        </provider>
+141
+142        <receiver
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+143            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+144            android:directBootAware="false"
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+145            android:enabled="true"
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+146            android:exported="true"
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+147            android:permission="android.permission.DUMP" >
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+148            <intent-filter>
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+149                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+150            </intent-filter>
+151            <intent-filter>
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+152                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+153            </intent-filter>
+154            <intent-filter>
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+155                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+156            </intent-filter>
+157            <intent-filter>
+157-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+158                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fabio\.gradle\caches\transforms-4\74c99bc4386b4c536752c9f27fc19797\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+159            </intent-filter>
+160        </receiver>
+161
+162        <service
+162-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fabio\.gradle\caches\transforms-4\dcee7260ea209b2adb1d59cf6bc9867b\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+163            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+163-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fabio\.gradle\caches\transforms-4\dcee7260ea209b2adb1d59cf6bc9867b\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+164            android:exported="false" >
+164-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fabio\.gradle\caches\transforms-4\dcee7260ea209b2adb1d59cf6bc9867b\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+165            <meta-data
+165-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fabio\.gradle\caches\transforms-4\dcee7260ea209b2adb1d59cf6bc9867b\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+166                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+166-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fabio\.gradle\caches\transforms-4\dcee7260ea209b2adb1d59cf6bc9867b\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+167                android:value="cct" />
+167-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fabio\.gradle\caches\transforms-4\dcee7260ea209b2adb1d59cf6bc9867b\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+168        </service>
+169        <service
+169-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fabio\.gradle\caches\transforms-4\88721d87f3c6e690dcee378828e38786\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+170            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+170-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fabio\.gradle\caches\transforms-4\88721d87f3c6e690dcee378828e38786\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+171            android:exported="false"
+171-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fabio\.gradle\caches\transforms-4\88721d87f3c6e690dcee378828e38786\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+172            android:permission="android.permission.BIND_JOB_SERVICE" >
+172-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fabio\.gradle\caches\transforms-4\88721d87f3c6e690dcee378828e38786\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+173        </service>
+174
+175        <receiver
+175-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fabio\.gradle\caches\transforms-4\88721d87f3c6e690dcee378828e38786\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+176            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+176-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fabio\.gradle\caches\transforms-4\88721d87f3c6e690dcee378828e38786\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+177            android:exported="false" />
+177-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fabio\.gradle\caches\transforms-4\88721d87f3c6e690dcee378828e38786\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+178    </application>
+179
+180</manifest>

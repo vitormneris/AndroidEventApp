@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "edu.fatecitaquera.eventapp-mergeDebugResources-2:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "edu.fatecitaquera.eventapp-mergeDebugResources-39:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/home/vitor/qr_code/EventBase/gradle/caches/transforms-4/45e8438cefe1b3a34e88a23a7917c4d4/transformed/appcompat-1.7.0/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "C:\\Users\\fabio\\.gradle\\caches\\transforms-4\\45e8438cefe1b3a34e88a23a7917c4d4\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
