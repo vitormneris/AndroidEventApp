@@ -20,6 +20,7 @@ import com.google.android.material.textfield.TextInputLayout;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 import edu.fatecitaquera.eventapp.dao.EventDAO;
 import edu.fatecitaquera.eventapp.model.Event;
@@ -132,12 +133,29 @@ public class AddEventActivity extends AppCompatActivity {
             eventNew.setStartEvent(startEvent.getEditText().getText().toString());
             eventNew.setFinishEvent(finishEvent.getEditText().getText().toString());
 
-            if (eventDAO.insert(eventNew)) Toast.makeText(getApplicationContext(), "Evento registrado com sucesso!", Toast.LENGTH_LONG).show();
-            else Toast.makeText(getApplicationContext(), "Não há conexão com a internet!", Toast.LENGTH_LONG).show();
+            eventNew.getStartEvent();
+            eventNew.getFinishEvent();
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+            try {
+                Date start = simpleDateFormat.parse(eventNew.getStartEvent());
+                Date finish = simpleDateFormat.parse(eventNew.getFinishEvent());
 
-            Intent intent = new Intent(this, HomeActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
-            startActivity(intent);
+                if (start.before(finish)) {
+                    if (eventDAO.insert(eventNew)) Toast.makeText(getApplicationContext(), "Evento registrado com sucesso!", Toast.LENGTH_LONG).show();
+                    else Toast.makeText(getApplicationContext(), "Não há conexão com a internet!", Toast.LENGTH_LONG).show();
+
+                    Intent intent = new Intent(this, HomeActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(getApplicationContext(), "A data de início não pode ser posterior a data de término!", Toast.LENGTH_LONG).show();
+                }
+
+            } catch (ParseException e) {
+                throw new RuntimeException(e);
+            }
+
+
         });
     }
 }
