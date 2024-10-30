@@ -4,20 +4,12 @@
         "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/rectangle_black.xml"
     },
     {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/layout_activity_home.xml.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/layout/activity_home.xml"
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "edu.fatecitaquera.eventapp-debug-4:/layout_activity_finisih.xml.flat",
-        "source": "edu.fatecitaquera.eventapp-main-6:/layout/activity_finisih.xml"
-    },
-    {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/xml_network_security_config.xml.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/xml/network_security_config.xml"
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_button_selector.xml.flat",
@@ -28,32 +20,16 @@
         "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/xml_backup_rules.xml.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_button_disable.xml.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/button_disable.xml"
-    },
-    {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_rectangle_border.xml.flat",
         "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/rectangle_border.xml"
     },
     {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/layout_message_error.xml.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/layout/message_error.xml"
-    },
-    {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-mdpi/ic_launcher_background.png"
     },
     {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/layout_activity_event.xml.flat",
@@ -62,6 +38,14 @@
     {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_rigth.png.flat",
         "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/rigth.png"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-xhdpi/ic_launcher_background.png"
     },
     {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -76,32 +60,8 @@
         "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/cara_feliz.png"
     },
     {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_button_enable.xml.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/button_enable.xml"
-    },
-    {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_rectangle_radius.xml.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/rectangle_radius.xml"
-    },
-    {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/layout_activity_user_list.xml.flat",
         "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/layout/activity_user_list.xml"
-    },
-    {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_rectangle.xml.flat",
@@ -124,28 +84,164 @@
         "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/layout/activity_add_event.xml"
     },
     {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/layout_event_item.xml.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/layout/event_item.xml"
-    },
-    {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/layout_activity_main.xml.flat",
         "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/layout/activity_main.xml"
-    },
-    {
-        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-mdpi/ic_launcher.webp"
     },
     {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_cara_infeliz.png.flat",
         "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/cara_infeliz.png"
     },
     {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-hdpi_ic_launcher_monochrome.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-hdpi/ic_launcher_monochrome.png"
+    },
+    {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/layout_user_item.xml.flat",
         "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/layout/user_item.xml"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-xxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-xxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/layout_activity_home.xml.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/xml_network_security_config.xml.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/xml_backup_rules.xml.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_button_disable.xml.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/button_disable.xml"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/layout_message_error.xml.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/layout/message_error.xml"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-xhdpi_ic_launcher_monochrome.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-xhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_button_enable.xml.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/button_enable.xml"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_rectangle_radius.xml.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/rectangle_radius.xml"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/layout_event_item.xml.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/layout/event_item.xml"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-mdpi_ic_launcher_monochrome.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-mdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/xml_data_extraction_rules.xml.flat",
@@ -154,6 +250,10 @@
     {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/drawable_rectangle_red.xml.flat",
         "source": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-main-6:/drawable/rectangle_red.xml"
+    },
+    {
+        "merged": "edu.fatecitaquera.eventapp-debug-4:/mipmap-xxxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "edu.fatecitaquera.eventapp-main-6:/mipmap-xxxhdpi/ic_launcher_monochrome.png"
     },
     {
         "merged": "/home/vitor/qr_code/EventBase/gradle/daemon/8.7/edu.fatecitaquera.eventapp-debug-4:/layout_activity_scanner.xml.flat",

@@ -73,9 +73,9 @@ public class UserListActivity extends AppCompatActivity {
                     TextView userOut = playerView.findViewById(R.id.user_out);
 
                     id.setText("ID: " + user.getId());
-                    name.setText("Nome: " + user.getName());
-                    userIn.setText("Entrou: " + user.getUserIn());
-                    userOut.setText("Saiu: " + user.getUserOut());
+                    name.setText("NOME: " + user.getName());
+                    userIn.setText("ENTROU: " + user.getUserIn());
+                    userOut.setText("SAIU: " + (user.getUserOut() == null ? "- Ainda presente no evento -" : user.getUserOut()));
 
                     userListView.addView(playerView);
                 }

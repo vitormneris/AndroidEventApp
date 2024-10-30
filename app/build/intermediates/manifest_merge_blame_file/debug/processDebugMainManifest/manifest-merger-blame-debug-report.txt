@@ -84,8 +84,8 @@
 48-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:13:9-41
 49        android:networkSecurityConfig="@xml/network_security_config"
 49-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:14:9-69
-50        android:roundIcon="@mipmap/ic_launcher_round"
-50-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:15:9-54
+50        android:roundIcon="@mipmap/ic_launcher"
+50-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:15:9-48
 51        android:supportsRtl="true"
 51-->/home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:16:9-35
 52        android:testOnly="true"

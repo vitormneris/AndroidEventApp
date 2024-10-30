@@ -146,7 +146,7 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] /home/vitor/qr_code/Even
 	android:fullBackupContent
 		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:11:9-54
 	android:roundIcon
-		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:15:9-54
+		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:15:9-48
 	tools:targetApi
 		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:18:9-29
 	android:icon

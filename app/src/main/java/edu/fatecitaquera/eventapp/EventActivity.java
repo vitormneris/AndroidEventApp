@@ -17,7 +17,10 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.material.textfield.TextInputLayout;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 import edu.fatecitaquera.eventapp.dao.EventDAO;
 import edu.fatecitaquera.eventapp.model.Event;
@@ -164,14 +167,26 @@ public class EventActivity extends AppCompatActivity {
             eventUpdated.setStartEvent(startEvent.getEditText().getText().toString());
             eventUpdated.setFinishEvent(finishEvent.getEditText().getText().toString());
 
-            if (eventDAO.update(eventId, eventUpdated))
-                Toast.makeText(getApplicationContext(), "Evento atualizado com sucesso!", Toast.LENGTH_LONG).show();
-            else
-                Toast.makeText(getApplicationContext(), "Não a conexão com a internet!", Toast.LENGTH_LONG).show();
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+            try {
+                Date start = simpleDateFormat.parse(eventUpdated.getStartEvent());
+                Date finish = simpleDateFormat.parse(eventUpdated.getFinishEvent());
 
-            Intent intent = new Intent(this, HomeActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
-            startActivity(intent);
+                if (start.before(finish)) {
+                    if (eventDAO.update(eventId, eventUpdated))
+                        Toast.makeText(getApplicationContext(), "Evento atualizado com sucesso!", Toast.LENGTH_LONG).show();
+                    else
+                        Toast.makeText(getApplicationContext(), "Não a conexão com a internet!", Toast.LENGTH_LONG).show();
+
+                    Intent intent = new Intent(this, HomeActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(getApplicationContext(), "A data de início não pode ser posterior a data de término!", Toast.LENGTH_LONG).show();
+                }
+            } catch (ParseException error) {
+                throw new RuntimeException(error);
+            }
         });
 
     }

@@ -3928,7 +3928,9 @@ layout user_item
 layout zxing_barcode_scanner
 layout zxing_capture
 mipmap ic_launcher
-mipmap ic_launcher_round
+mipmap ic_launcher_background
+mipmap ic_launcher_foreground
+mipmap ic_launcher_monochrome
 plurals mtrl_badge_content_description
 raw zxing_beep
 string abc_action_bar_home_description

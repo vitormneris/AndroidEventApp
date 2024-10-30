@@ -93,9 +93,9 @@ public class HomeActivity extends AppCompatActivity {
                 });
 
                 id.setText("ID: " + event.getId());
-                name.setText("Nome: " + event.getName());
-                startEvent.setText("Início: " + event.getStartEvent());
-                finishEvent.setText("Término: " + event.getFinishEvent());
+                name.setText("NOME: " + event.getName());
+                startEvent.setText("INICIO: " + event.getStartEvent());
+                finishEvent.setText("TERMINO: " + event.getFinishEvent());
 
                 eventListView.addView(playerView);
             }
