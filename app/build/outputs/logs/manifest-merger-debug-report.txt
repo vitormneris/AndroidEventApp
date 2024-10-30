@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:2:1-48:12
+ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:2:1-51:12
 MERGED from [com.google.mlkit:barcode-scanning:17.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/0df1c52eff40a4924cd4a9e03708ab91/transformed/barcode-scanning-17.3.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:17:1-56:12
 MERGED from [com.google.android.material:material:1.12.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/00b9883ca3f108ef35350b67fe343c16/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
@@ -93,8 +93,8 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/vit
 	android:name
 		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:8:5-46:19
-INJECTED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:8:5-46:19
+ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:8:5-49:19
+INJECTED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:8:5-49:19
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:46:5-54:19
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/7b7ec68311d9e7a8260c33f7ac2f635c/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:46:5-54:19
 MERGED from [com.google.android.material:material:1.12.0] /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/00b9883ca3f108ef35350b67fe343c16/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
@@ -159,58 +159,64 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] /home/vitor/qr_code/Even
 		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:14:9-69
 	android:dataExtractionRules
 		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:10:9-65
-activity#edu.fatecitaquera.eventapp.UserListActivity
+activity#edu.fatecitaquera.eventapp.FinisihActivity
 ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:19:9-21:40
 	android:exported
 		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:20:13-45
-activity#edu.fatecitaquera.eventapp.QRCodeActivity
+		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:20:13-44
+activity#edu.fatecitaquera.eventapp.UserListActivity
 ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:22:9-24:40
 	android:exported
 		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:23:13-43
-activity#edu.fatecitaquera.eventapp.EventActivity
+		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:23:13-45
+activity#edu.fatecitaquera.eventapp.QRCodeActivity
 ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:25:9-27:40
 	android:exported
 		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:26:13-42
-activity#edu.fatecitaquera.eventapp.AddEventActivity
+		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:26:13-43
+activity#edu.fatecitaquera.eventapp.EventActivity
 ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:28:9-30:40
 	android:exported
 		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:29:13-45
-activity#edu.fatecitaquera.eventapp.HomeActivity
+		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:29:13-42
+activity#edu.fatecitaquera.eventapp.AddEventActivity
 ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:31:9-33:40
 	android:exported
 		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:32:13-41
-activity#edu.fatecitaquera.eventapp.ScannerActivity
+		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:32:13-45
+activity#edu.fatecitaquera.eventapp.HomeActivity
 ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:34:9-36:40
 	android:exported
 		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:35:13-44
-activity#edu.fatecitaquera.eventapp.MainActivity
-ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:37:9-45:20
+		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:35:13-41
+activity#edu.fatecitaquera.eventapp.ScannerActivity
+ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:37:9-39:40
 	android:exported
-		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:39:13-36
+		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:38:13-41
+		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:38:13-44
+activity#edu.fatecitaquera.eventapp.MainActivity
+ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:40:9-48:20
+	android:exported
+		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:42:13-36
+	android:name
+		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:41:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:40:13-44:29
+ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:43:13-47:29
 action#android.intent.action.MAIN
-ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:41:17-69
+ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:41:25-66
+		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:43:17-77
+ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:46:17-77
 	android:name
-		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:43:27-74
+		ADDED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml:46:27-74
 uses-sdk
 INJECTED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/vitor/AndroidStudioProjects/EventApp/app/src/main/AndroidManifest.xml

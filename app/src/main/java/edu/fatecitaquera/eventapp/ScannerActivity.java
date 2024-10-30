@@ -128,6 +128,7 @@ public class ScannerActivity extends AppCompatActivity {
 
                             Toast.makeText(this, "QR Code escaneado com sucesso!", Toast.LENGTH_SHORT).show();
 
+                            startActivity(new Intent(this, FinisihActivity.class));
                         }
                     }
                 })
