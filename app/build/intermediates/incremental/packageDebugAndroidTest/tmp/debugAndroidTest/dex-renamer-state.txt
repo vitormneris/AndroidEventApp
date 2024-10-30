@@ -1,4 +1,4 @@
-#Tue Oct 15 18:45:46 BRT 2024
+#Tue Oct 29 20:41:35 BRT 2024
 base.0=/home/vitor/AndroidStudioProjects/EventApp/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
 base.1=/home/vitor/AndroidStudioProjects/EventApp/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
 base.2=/home/vitor/AndroidStudioProjects/EventApp/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/9/classes.dex

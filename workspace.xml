@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_event.xml">
+        <config>
+          <theme>@style/Theme.EventApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+        <config>
+          <theme>@style/Theme.EventApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_qrcode.xml">
+        <config>
+          <theme>@style/Theme.EventApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/event_item.xml">
+        <config>
+          <theme>@style/Theme.EventApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/message_error.xml">
+        <config>
+          <theme>@style/Theme.EventApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/user_item.xml">
+        <config>
+          <theme>@style/Theme.EventApp</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="580fec1c-f75d-451f-af4e-b360dc32671a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cara_feliz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cara_infeliz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/message_error.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/AddEventActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/AddEventActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/EventActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/EventActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/UserListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/UserListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/background/DeleteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/background/DeleteRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/background/FindAllRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/background/FindAllRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/background/FindByIdRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/background/FindByIdRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/background/InsertRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/background/InsertRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/background/UpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/background/UpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/dao/EventDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/dao/EventDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/util/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/fatecitaquera/eventapp/util/ConnectionFactory.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="EventApp" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="EventApp" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="EventApp" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="EventApp" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2o1rC6QH0BAimta9Kco6vM3Uotz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/vitor/AndroidStudioProjects/EventApp/app/src/main/res/drawable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="580fec1c-f75d-451f-af4e-b360dc32671a" name="Changes" comment="" />
+      <created>1730047791999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730047791999</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>

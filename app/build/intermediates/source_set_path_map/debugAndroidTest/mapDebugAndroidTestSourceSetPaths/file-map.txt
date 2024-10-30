@@ -3,3 +3,4 @@ edu.fatecitaquera.eventapp.test.app-mergeDebugAndroidTestResources-1 /home/vitor
 edu.fatecitaquera.eventapp.test.app-mergeDebugAndroidTestResources-2 /home/vitor/AndroidStudioProjects/EventApp/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
 edu.fatecitaquera.eventapp.test.app-debugAndroidTest-3 /home/vitor/AndroidStudioProjects/EventApp/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
 edu.fatecitaquera.eventapp.test.app-core-1.6.1-4 /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/4bc5fa78359f00885dd0d5b4b07aa4e7/transformed/core-1.6.1/res
+edu.fatecitaquera.eventapp.test.app-tracing-1.2.0-5 /home/vitor/qr_code/EventBase/gradle/caches/transforms-4/db752a2db0a8c7c3442d41459a77380a/transformed/tracing-1.2.0/res

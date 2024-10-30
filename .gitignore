@@ -1,3 +1,5 @@
+*.json
+*.flat
 *.iml
 .gradle
 /local.properties
